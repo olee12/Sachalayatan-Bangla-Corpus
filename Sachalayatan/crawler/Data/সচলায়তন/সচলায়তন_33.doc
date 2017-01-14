@@ -1,0 +1,20 @@
+সচল চিকা
+
+
+
+
+$R= db_query_range("select c.timestamp, u.name nm, comment from comments c, users u where c.uid=u.uid and c.status=0 and nid=9707 order by timestamp desc", 0, 1);
+$r=db_fetch_object($R);
+if ((time()-$r->timestamp) < 600)
+{
+$cm = $r->comment;
+$x = explode("\n", $cm);
+$cm = substr($x[0],0, 241);
+echo "
+".$cm."".$r->nm."
+";
+}
+?>
+
+চিকা মারতে হলে মন্তব্য করুন..      চিকা আর্কাইভ
+

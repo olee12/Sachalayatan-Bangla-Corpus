@@ -1,0 +1,39 @@
+সচলদের কাছে জরুরী আবেদন
+
+
+
+সচলদের প্রতি জরুরী আবেদন জানাচ্ছি যে নীড়পাতার প্রথম অংশ মিশরের গণতান্ত্রিক আন্দোলনের প্রতি সংহতি প্রকাশ করে নিউজ ফিড যোগ করার জন্য। ঘৃণ্য স্বেচ্ছাচারী মোবারকের পেটোয়া বাহিনী এই মূহুর্ত্বে স্বাধীনতা স্কোয়ারে নির্বিচারে গুলি করছে। হতাহতের সংখ্যা দ্রুত বাড়ছে।
+
+
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: 'egypt',
+  interval: 6000,
+  title: 'মিশরের লাইভ টুইট',
+  subject: 'গণতন্ত্র মুক্তি পাক',
+  width: 250,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#8ec1da',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#1985b5'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: true,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    toptweets: true,
+    behavior: 'default'
+  }
+}).render().start();
+

@@ -1,0 +1,181 @@
+দায়সারা গল্প: ফুটবল
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Vrinda;
+	panose-1:2 11 5 2 4 2 4 2 2 3;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:65539 0 0 0 1 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520092929 1073786111 9 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+--><!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Vrinda;
+	panose-1:2 11 5 2 4 2 4 2 2 3;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:65539 0 0 0 1 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520092929 1073786111 9 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+ 
+
+
+
+তখন কার্তিক মাস। বিকালের রোদ বাঁকা হতে হতে হাঁটুর কাছে এসে ঠেকেছে। আর ছাগলের গুটি গুটি ল্যাদা তাতে চকচক করছে। কতগুলা আবার চ্যাপ্টা হয়ে মিশে গেছে মাটির সাথে। কিন্তু চারদিকে শুধু চারকোণা মুখের কতগুলা গরু চড়ে বেড়াচ্ছে, ছাগলের দেখা নাই। কিন্তু ছিল, একটু আগেই একটা ছাগল চ্ছিল। তার আবার ইয়া বড় মুখের কাটা। আর সেন্ট্রাল মসজিদের হুজুরের মত জর্দা খাওয়া দাঁত। কিন্তু এখন আর নাই। এদিকে শোভন ফোঁস ফোঁস করে নিশ্বাস ফেলছে, আমি তার শব্দ শুনতে পাচ্ছি। কাঠির মত চিকন চিকন পা দিয়ে ও বলটাকে দুই একটা নাচান দিয়েই সুরুৎ করে ঠেলে দিল আমার দিকে। আমি বাম পা দিব না ডান পা দিব বুঝতে না পেরে ভাবছিলাম অবু দশ বিশ শুরু করব কিনা, অমনি পিছন থেকে হেইক করে একটা শব্দ শুনে ভ্যাবাচ্যাকা খেয়ে একদম মাঠের মাঝখানে দাঁড়িয়ে গেলাম। আর তো চারদিকে চেঁচামেচি চেঁচামেচি।আমি ভেবড়ে গিয়ে এক পাশে সরে এলাম।  
+ 
+তখনই প্রথম বুঝলাম মাঠটা কত বড়। এইপাশে দাঁড়ালে ওপাশ দেখা যায় না। আমি একবার এপাশ থেকে দেখি, একবার ওপাশ থেকে দেখি, একরকমই লাগে। শুধু এইদিকটায় খাবলা খাবলা ঘাস। অন্যদিকটায় ঘাস একটু বেশি। আর লম্বা লম্বা। আর খোঁচা খোঁচা চোরাকাঁটা ভর্তি। ঐদিকে আর যাওয়া যাবে না। একবার যেতেই আমার আমার পা কুটকুট করা শুরু করেছে। 
+ 
+আবার দেখি চেঁচামেচি চেঁচামেচি। থ্রো হবে এখন কিন্তু কার থ্রো বোঝা যাচ্ছে না, এত রোদ। কুয়াশার মত রোদ। ধরা যায় না, কিন্তু দেখা যায়। আন্দাজে একদিকে বলটা ছুঁড়ে মেরেই ফরিদ একবারে বসে পড়লো। সবাই সাথে সাথে চীৎকার “হাফ টাইম! হাফ টাইম!”
+ 
+লেবুগুলা রোদ খেয়ে খেয়ে পুরো হলুদ হয়ে ছিল। জামিল একটা ভোঁতা ছুরি দিয়ে এক পিস কেটে আমাকে দিয়ে বললো, “খাবি?” আমি তো কখনো এভাবে খাই নাই। তাই সাবধানে নাকের কাছে নিয়ে শুঁকে দেখলাম। কেমন টক টক। আর ভিতরে বিচি, তাতে আবার গোলাপি রঙের বর্ডার দেওয়া। জামিল বিচিগুলা মাঠের একপাশে পুঁতে দিয়ে থুতু ছিটিয়ে দিল। নাজমুল বললো আগামী বছর নাকি ওখানে গাছ উঠবে। আমার এখনই খুঁড়ে দেখতে ইচ্ছা করছিল গাছ উঠেছে কিনা, কিন্তু ওরা দাঁড়িয়ে ছিল বলে জায়গা পাচ্ছিলাম না। এদিকে কপালের বামদিকে রোদ একদম ভিতরে ঢুকে গেছে, ধরে দেখি কেমন ডেবে গেছে ঐ জায়গাটা। তখন অন্যদিকে ফিরে খেলা শুরু করলাম। দেখি এইপাশেও অমন। তখন একবার এদিকে ফিরি, আরকবার ওদিকে ফিরি, এরকম করে খেলতে থাকলাম।
+ 
+ঘাসগুলাতে রোদ পড়ে পড়ে একেবারে পিচ্ছিল হয়ে আছে। সবাই ধুরুম-ধারুম আছাড় খাচ্ছে। আমিও গিয়ে একটা আছাড় খেলাম। আর একটা ছাগলের ল্যাদা আমার বাঁ পায়ের কানি আঙ্গুলে লেগে গেল। ঘাসের মধ্যে ঘষে পরিষ্কার করতে যাব, আর দেখি সামনে বল। সেটা আবার বনবন করে লাটিমের মত ঘুরছে। আমি এক জায়গায় কিক করব বলে টার্গেট করলাম, কিন্তু একী! বলটা ঘুরে ঘুরে ঐ জায়গাটা খালি অন্যদিকে চলে যায়। আমিও ঘুরে অন্যদিকে চলে আসছিলাম, তখন আবার “হেইক!” আমি দেখি বল নাই, ছাগলের ল্যাদা নাই, খালি ঘাসের টুকরা ঝরে ঝরে পড়ছে উপর থেকে। আর মোজার গন্ধ! আর অমনি গো-ও-ও-ও-ও-ল! 
+ 
+বুঝলাম এভাবে হবে না। তখন খেলার স্টাইল বদলে ফেললাম। জামিল যেদিকে যায়, আমিও সেদিকে দৌঁড়াই। কিন্তু এত মানুষ, আমি আর দৌঁড়ানোর জায়গা পাইনা। এর মধ্যে আরেকটা লজ্জার ব্যাপার হয়ে গেল। তারেক বলে কিক দিল, আর সেটা কার একজনের পায়ে লেগে ধাঁই করে আমার দিকে ছুটে এল। আমি সরে যাবার আগেই বলটা এসে লাগলো আমার পেটে। আর আমি ব্যাথায় কাঁইমাই করে চীৎকার করে উঠলাম। তারপর তো বলও গড়াচ্ছে, আমিও গড়াচ্ছি। আর দেখি তারেক গোদা গোদা পায়ে ছুটে আসছে বলের দখল নিতে। ওই পায়ের একটা চাপা খেলে আমি শেষ। কোনরকমে গড়িয়ে একপাশে চলে গেলাম। 
+ 
+জামিল কতক্ষণ পরে এসে আমাকে জিগ্যেস করল, “সব ঠিক আছে চ্যাম্প?” আমার পেটে তখনও চিনচিন ব্যাথা ছিল। তাও দুই-দশ পা দৌঁড়ে ওকে দেখিয়ে দিলাম যে সব ঠিকঠাক। এই ছেলেটাকে আমি ভীষণ পছন্দ করি। 
+ 
+আস্তে আস্তে রোদ কমে আসছে। দেখি আমার ছায়া বিশাল বড় দেখাচ্ছে। আমি দৌঁড়ালে আমার ছায়াও দৌঁড়ায়। লাফ দিলে এক পাশে সরে যায়। আবার অন্যদের পাশে পাশে দৌঁড়ালে দেখি দুইটা ছায়া মিশে যায়। কিন্তু বলটা ওরকম বেমক্কাভাবে পেটে লাগার পর আমি সাবধান হয়ে গেছি। এখন আর জটলার মধ্যে যাই না। তারপরও কিভাবে কিভাবে জানি বলটা মাঝে মাঝে আমার দিকে চলে আসছিল। আমিও সাধ্যমত ডজ করছিলাম। মজার ব্যাপার হচ্ছে বলটারও ছায়া পড়ে। ছায়াটা আবার গোল না, লম্বা।
+ 
+সবাই আস্তে আস্তে দৌড়াচ্ছিল এখন। গরমে আমারও জিভ বেড়িয়ে পড়ছিল। রোদ কমে গেছে ভাগ্যিস, নাহলে খবর ছিল। আমি মাঠের এক পাশে গিয়ে শুয়ে পড়লাম চুপচাপ। কয়েকটা মশা খুব জ্বালাচ্ছিল। আমি ওগুলোকে ধরার চেষ্টা করছিলাম। কিন্তু এত তাড়াতাড়ি ওরা উড়ে পালায়! আমার মনে হচ্ছিল এর চেয়ে খেলার মধ্যে থাকলেই ভাল ছিল। 
+ 
+এদিকে খেলা কিন্তু চলছেই। এর মধ্যে আরেকবার “গো-ও-ও-ও-ও-ল”ও হয়ে গেল। দূর থেকে খেলা দেখতে মজাই লাগছিল। বারটা ছেলে বল নিয়ে একবার এদিকে, একবার ওদিকে দৌঁড়াচ্ছে, মাঝে মাঝে ধপাস করে পড়ে যাচ্ছে। আরও কিছুক্ষণ এরকম খেলা চলার পর দেখি শোভন চলে যাচ্ছে। তারপর নাজমুলও চলে গেল। রাসেল, মিনহাজ, মঈনুল, সবাই চলে গেল। দেখি মাঠের এই পাশে আর কেউ নাই।   
+ 
+খেলা শেষ!
+ 
+আমি তাড়াতাড়ি জামিলের কাছে ছুটে গেলাম। জামিল আমার মাথায় ইলিবিলি কেটে দিল। আমিও বেদম খুশি হয়ে ওর গাল চেটে দিলাম। তারেক মাঠের পাশে শুয়ে পড়ে হাঁক দিল, “হেই পাব্লিক, কালকে বিকালে খেলবা?” আমি সাথে সাথে “ঘেউ!” করে জানিয়ে দিলাম আমি খেলব।  
+ 
+আমি যে ফুটবল খেলতে ভীষণ ভালবাসি!
+ 
+

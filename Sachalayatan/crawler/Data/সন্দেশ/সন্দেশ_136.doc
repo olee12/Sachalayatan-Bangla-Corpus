@@ -1,0 +1,121 @@
+লাইভ ব্লগিং: বাংলাদেশ নির্বাচন ২০০৮ ফলাফল
+
+
+
+নির্বাচনের ফলাফল এখানে জানাতে থাকুন। মডারেটরদের একজন এই পোস্টে রক্ষিত পিএইচপি কোডে আপনাদের কাছ থেকে পাওয়া তথ্য আপডেট করে দেবেন। পিএইচপি কোডটি একটি ফাইলে তথ্যটা লিখে রাখবে। নির্বাচনী উইজেটটি সেই ফাইল থেকে তথ্য নিয়ে প্রচার করবে সব জায়গায়।
+
+মহাজোট
+গোপালগঞ্জ-৩ - শেখ হাসিনা
+দিনাজপুর ১ - মনোরঞ্জল গীল গোপাল
+লালমনিরহাট ১ - মোতাহার হোসেন
+রংপুর ৬ - শেখ হাসিনা
+নীলফামারী ২ - আসাদুজ্জামান নুর
+জামালপুর ৩ - মির্জা আজম
+জামালপুর ৫ - রেজাউল করিম হীরা
+
+
+চার দল
+লক্ষীপুর ৩ - শহীদ উদ্দীন চৌধুরী এ্যানি
+ফেনী ১ - বেগম খালেদা জিয়া
+লক্ষীপুর ১ - নাজিমউদ্দিন
+
+লাইভ নির্বাচন উইজেটটি ব্যাবহার করুন আপনার ব্যাক্তিগত ব্লগে এবং ছড়িয়ে দিন  সর্বত্র।
+<iframe src="http://www.sachalayatan.com/election/2008results.html" frameborder="0" scrolling="no" style="border: 1px solid #ccc; overflow: none;" width="200" height="430"></iframe>
+
+
+
+ 
+$save_file =false;
+  $candidates = array();
+  $candidates[] = array(
+  'id' => '1',
+  'Electoral' => '103',
+  'Party' => 'মহাজোট',
+  'Name' => 'মহাজোট',
+  'img' => 'pd_hasina',
+  'Votes' => '66882230',
+   'Call'=> '',
+  'VPct' => '53'
+  );
+  $candidates[] = array(
+  'id' => '2',
+  'Electoral' => '11',
+  'Party' => 'চার দল',
+  'Name' => 'চার দল',
+  'img' => 'pd_khaleda',
+  'Votes' => '58343671',
+   'Call'=> '',
+  'VPct' => '46'
+  );
+/*  $candidates[] = array(
+  'id' => '3',
+  'Electoral' => '0',
+  'Party' => 'জাতীয় পার্টি',
+  'Name' => 'হুঃ মোঃ এরশাদ',
+  'img' => 'pd_ershad',
+  'Votes' => '580000',
+   'Call'=> '',
+  'VPct' => '40'
+  ); */
+/*  $candidates[] = array(
+  'id' => '4',
+  'Electoral' => '0',
+  'Party' => 'জামায়াতে ইসলামী',
+  'Name' => 'মঃ রঃ নিজামী',
+  'img' => 'pd_jamat',
+  'Votes' => '580000',
+   'Call'=> '',
+  'VPct' => '40'
+  ); */
+  $candidates[] = array(
+  'id' => '5',
+  'Electoral' => '1',
+  'Party' => 'অন্যান্য',
+  'Name' => 'অন্যান্য',
+  'img' => 'pd_other',
+  'Votes' => '580000',
+   'Call'=> '',
+  'VPct' => '40'
+  );
+function cmp($a, $b)
+{
+    if ($a['Electoral'] == $b['Electoral']) {
+        // return strcmp($a['Name'], $b['Name']);
+        return 0;
+    }
+    return ($a['Electoral'] > $b['Electoral']) ? -1 : 1;
+}
+if ($save_file) {
+usort($candidates, "cmp");
+  $doc = new DOMDocument('1.0');
+  $doc->formatOutput = true;
+  $rootElem = $doc->createElement( "Summary" );
+  $rootElem->setAttribute('buildTime', date('m/d/Y g:i:s A'));
+  $raceElem = $doc->createElement( "Race" );
+  $raceElem->setAttribute('id', '1');
+  $raceElem->setAttribute('eDate', '20081229');
+  $position = 1;
+  foreach( $candidates as $candidate )
+  {
+    $candElem = $doc->createElement( "Cand" );
+    $candElem->setAttribute('id', $candidate['id'] );
+    $candElem->setAttribute('Position', $position );
+    $candElem->setAttribute('Electoral', $candidate['Electoral'] );
+    $candElem->setAttribute('Party', $candidate['Party'] );
+    $candElem->setAttribute('Name', $candidate['Name'] );
+    $candElem->setAttribute('img', $candidate['img'] );
+    $candElem->setAttribute('Votes', $candidate['Votes'] );
+    if($candidate['Call'] != '')
+      $candElem->setAttribute('Call', $candidate['Call'] );
+    $candElem->setAttribute('VPct', $candidate['VPct'] );
+    $raceElem->appendChild( $candElem );
+    $position = $position + 1;
+  }
+  $rootElem->appendChild( $raceElem );
+  $doc->appendChild( $rootElem );  
+  // echo $doc->saveXML();
+echo 'ফাইল সেইভ করা হল '. $doc->save('/www/election/PresSummary.xml') . ' বাইটের';
+}
+  ?>
+
+

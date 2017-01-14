@@ -1,0 +1,86 @@
+একটা ব্যানার তৈরীর গল্প
+
+
+
+সচলের জন্য একটা ব্যানার বানানর শখ আমার অনেক দিনের । কিন্তু শখটা কখনই বাতিক হয়ে মাথায় উঠেনি, তাই ব্যানারটাও করা হয়নি । কিছুদিন আগে হিমু ভাই বরাহ শিকারের বাই তুললেন যখন, তখন আমার মাথায়ও কিছু একটা করার বাতিক চাপল । প্রথমে কিছু আঁকিবুকি করে একটা পোস্ট দিয়েছিলাম । খুবই সাধারন মানের কয়েকটা ছবি । কতগুলো কাঠি মানব বিভিন্ন ভঙ্গিতে দাঁড়িয়ে বা হেঁটে চলেছে বরাহ শিকারে, আর একটা বরাহের ছবি । কয়েকজন সচল ভীষণ উৎসাহ নিয়ে সেই ছবিগুলো দেখলাম এদিক সেদিক ছড়িয়ে দিলেন । ফেসবুকে হঠাৎ হঠাৎ অচেনা লোকের প্রোফাইল ছবিতে আমার সেই ড্রইং গুলো দেখা যেতে লাগল, আমি তো অবাক ! এই সুযোগে তাদের সবাইকে ধন্যবাদ জানিয়ে রাখি ।
+কাঠি মানব ড্রইং করেও মনে হল যথেষ্ট করা হয়নি, আরো কিছু করা দরকার । এরই মধ্যে একদিন দেখি সুজনদা একটা ব্যানার দিয়ে দিলেন । তখন আমার ব্যানার বানানর শখটা বাতিক হয়ে মাথায় উঠে বসল । কাঠি মানবের ড্রইং গুলো দিয়েই একটা ব্যানার বানাব ঠিক করলাম । দুই দিন আগে একটা ড্রইং করে ফেসবুকে দিয়েছিলাম, তিনজন শিকারী চলেছে বরাহ শিকারে । তিন সংখ্যাটা প্রতিকী এখানে । three is a crowd এর মত, তিনজন মানে "আমরা" ।
+
+প্রথমে এই ছবির তিনজন শিকারির পা আর দেহের উপরিভাগ আলাদা করে নিলাম । তাহলে আমার কাছে থাকল তিন জোড়া পা আর তিন ধরনের ঊর্ধ্বাঙ্গ, এগুলো মিলিয়ে মিশিয়ে তিন-তিরিক্কে নয় জন শিকারি আঁকা সম্ভব । 
+
+সচলের ব্যানারের আকার হয়তে হয় প্রস্থে ৯৬৫ আর উচ্চতায় ১৫০ । হিসাব করে দেখলাম একের পর এক শিকারীকে পাশাপাশি বসিয়ে দিলে পনের জনেরও কিছু বেশি বসিয়ে দেয়া সম্ভব । ফটোশপের জন্য একটা স্ক্রিপ্ট লিখলাম, দৈবচয়ন (random selection) করে পা আর ঊর্ধ্বাঙ্গ মিলিয়ে একটা করে শিকারী বানাবে আর বসিয়ে দেবে আগের জনের ডানে । এভাবে চলবে যতক্ষণ না পুরো ব্যানার জুড়ে শিকারীর দল হয়ে যায়, হিসাব করে দেখা গেল এর জন্য ১৭ জন শিকারী দরকার । এই যে, সেই স্ক্রিপ্ট টা । ফটোশপ স্ক্রিপ্টিং এ আগ্রহী যারা, তাদের জন্য দিলাম । আগের একটা পোস্টে স্ক্রিপ্টিং কী এবং কেন তার সম্পর্কে কয়েক লাইন লিখেছিলাম তাই আর নতুন করে সব লিখে পাঠককে বিরক্ত করলাম না ।
+
+
+var defaultRulerUnits = preferences.rulerUnits
+preferences.rulerUnits = Units.PIXELS
+
+var imageWidth = 965 ;
+var imageHeight = 150 ;
+var legWidth = 60 ;
+var legHeight = 75 ;
+var torsoWidth = 75 ;
+var torsoHeight = 150 ;
+var nLeg = 3 ;
+var nTorso = 3 ;
+
+//open leg images
+for(i=1;i<=nLeg;i++) {
+	var fileRef = new File("C://hunt//leg"+i+".png");
+
+	var docRef = app.open(fileRef);
+	fileRef=null;
+
+	docRef=null;
+}
+
+//open upper body images
+for(i=1;i<=nTorso;i++) {
+
+	var fileRef = new File("C://hunt//torso"+i+".png");
+	var docRef = app.open(fileRef);
+
+	fileRef=null;
+	docRef=null;
+}
+
+var newDocument = documents.add(imageWidth,imageHeight);
+
+//make some random hunters
+for(j=0;j<17;j++) {
+
+		app.activeDocument = app.documents[Math.floor(Math.random()*nLeg)];
+
+		var AD = app.activeDocument;
+		AD.artLayers[0].copy();
+		app.activeDocument = newDocument;
+
+		var layer = newDocument.paste();
+		layer.translate(j*legWidth-imageWidth/2,legHeight);
+
+		app.activeDocument = app.documents[3+Math.floor(Math.random()*nTorso)];
+
+		AD = app.activeDocument;
+		AD.artLayers[0].copy();
+		app.activeDocument = newDocument;
+
+		var layer = newDocument.paste();
+		layer.translate(j*legWidth-imageWidth/2,legHeight/2+2);		
+		
+		layer.merge()
+
+}
+
+//close all files except for the final result
+for(i=app.documents.length-2;i>=0;i--) {
+
+	var AD = app.documents[i]
+	AD.close(SaveOptions.DONOTSAVECHANGES);
+}
+
+preferences.rulerUnits = defaultRulerUnits; 
+
+
+স্ক্রিপ্টের ফলাফল হল এরকম । কঠিন কাজটা শেষ । 
+
+এবার একটু রং-ঢং করে আর সচলের নাম এবং বরাহ শিকারের শ্লোগান লাগিয়ে তৈরী হয়ে গেল একটা ব্যানার 
+
+
