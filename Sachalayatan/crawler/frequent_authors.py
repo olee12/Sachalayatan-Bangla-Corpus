@@ -16,10 +16,11 @@ def get_names(path,freq):
         #print(apath);
         if os.path.isdir(apath):
             if len(os.listdir(apath)) >= freq:
+                print(folder);
                 #print(folder);
-                if get_size(apath)/1024/1024 >= 3:
-                    print(folder);
-                    print(get_size(apath)/1024/1024);
+                #if get_size(apath)/1024/1024 >= 3:
+                    #print(folder);
+                    #print(get_size(apath)/1024/1024);
 
 
-get_names("./Data",300);
+get_names("./Data",150);
